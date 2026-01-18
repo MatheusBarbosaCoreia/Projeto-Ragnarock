@@ -23,7 +23,7 @@ section{
 }
 
 h1{
-    color: lightskyblue;
+    color: #b22525;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -36,7 +36,7 @@ img{
 
 }
 h3{
-    color: rgb(143, 207, 245);
+    color: #b22525;
 }
 iframe{
     border-radius: 10px;
