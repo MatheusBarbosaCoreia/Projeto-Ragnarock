@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Icones'; /* Nome que você dará à fonte */
+    src: url('../Fontes/heydings_icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Icones1'; /* Nome que você dará à fonte */
+    src: url('../Fontes/Font\ 90\ Icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Icones2'; /* Nome que você dará à fonte */
+    src: url('../Fontes/Money\ money\ money.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: linear-gradient(to bottom,#313131, #1e1e1e);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section#menu{
+    background-color: #1e2131;
+    width: 300px;
+    height:auto;
+    border-radius: 10px;
+}
+
+h1{
+    color: #b22525;
+    text-align: center;
+    font-size: 30px;
+
+}
+#titulo{
+    font-family: 'Icones';
+    margin: -4px -11px 5px 5px;
+    font-size: 21px;
+}
+#icone{
+    font-family: 'Icones';
+    margin: -4px -11px 5px 5px;
+    font-size: 21px;
+    color: rgba(0, 255, 255, 0.575);
+}
+#icone2{
+    font-family: 'Icones1';
+    color: white;
+}
+#icone3{
+    font-family: 'Icones1';
+}
+#icone4{
+    font-family: 'Icones2';
+    margin: 0px -10px 1px 5px;
+    font-size: 21px;
+    color: rgba(0, 255, 255, 0.575);
+}
+#icone5{
+    font-family: 'Icones2';
+    margin: 0px -6px 1px 5px;
+    font-size: 21px;
+    color: rgba(0, 255, 255, 0.575);
+}
+#icone6{
+    font-family: 'Icones2';
+    margin: 0px -6px 1px 5px;
+    font-size: 21px;
+    color: rgba(0, 255, 255, 0.575);
+}
+#celular{
+    height: 200px;
+    width: 300px;
+    padding-left: 0px;
+}
+input#inome, input#icusto,input#igasto,input#ilucro,input#iestoque{
+    background-color: #313030;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    margin: 0px 0px 0px 12px;
+    border: 2px solid #181717;
+    
+}
+
+#voltar{
+    background-color: #201e1e;
+    color: white;
+    margin: 1px -26px 5px 43px;
+    padding: 5px 22px 5px 5px;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+#cadastrar{
+    border: 1px solid black;
+    background-color: #b22525;
+    padding: 5px 16px 5px 5px;
+    margin: 0px -17px 9px 75px;
+    font-family: sans-serif;
+}
+
+
+#voltar:hover{
+    box-shadow: 0px 0px 3px 3px #5f2a2a;
+}
+#cadastrar:hover{
+    box-shadow: 0px 0px 3px 3px #5f2a2a;
+}
+
+input#iusuario:hover, input#isenha:hover{
+    background-color: rgb(28, 31, 31);
+}

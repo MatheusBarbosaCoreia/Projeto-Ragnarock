@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="estilos/Cadastro.css">
+</head>
+<body>
+    <main>
+        <section id="menu">
+            <h1>Cadastre-se <span id="titulo">P</span></h1>
+            
+            <form id="formCadastro" autocomplete="on">
+                <p>
+                    <span id="icone">H</span>
+                    <input type="text" name="nome" id="inome" required placeholder="Nome" maxlength="30">
+                </p>
+                <p>
+                    <span id="icone4">$</span>
+                    <input type="number" name="custo" id="icusto" required placeholder="Custo" step="0.01">
+                </p>
+                <p>
+                    <span id="icone5">U</span>
+                    <input type="number" name="gasto" id="igasto" required placeholder="Gasto pra manter" step="0.01">
+                </p>
+                
+                <p>
+                    <span id="icone4">+</span>
+                    <input type="number" name="lucro" id="ilucro" required placeholder="Lucro" step="0.01">
+                </p>
+                <p>
+                    <span id="icone6">Q</span>
+                    <input type="number" name="estoque" id="iestoque" required placeholder="Valor Estoque Cheio" step="0.01">
+                </p>
+
+                <input id="voltar" type="button" value="Voltar " onclick="window.open('Propriedades.html','_self')">
+                <span id="icone2">l</span>
+
+                <input id="cadastrar" type="submit" value="Cadastrar ">
+                <span id="icone3">A</span>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        const formulario = document.getElementById('formCadastro');
+
+        formulario.addEventListener('submit', function(event) {
+            // event.preventDefault() impede o envio se houver erro ou para processar antes
+            event.preventDefault();
+
+            // Como todos os campos têm 'required', o navegador só chega aqui se estiverem cheios.
+            // Agora redirecionamos manualmente:
+            window.location.href = 'Cadastrada.html';
+        });
+    </script>
+</body>
+</html>

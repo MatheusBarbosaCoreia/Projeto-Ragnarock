@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="menu">
+            <h1>Ragnarock <span id="iconlogo">O</span></h1>
+            <img id="celular" src="Imagens/Celular.jpg" alt="">
+            
+            <form id="formLogin" autocomplete="on">
+                <p>
+                    <span id="iconlogin">A</span>
+                    <input type="text" name="usuario" id="iusuario" required placeholder="Usuario" maxlength="30">
+                </p>
+                <p>
+                    <span id="iconsenha">P</span>
+                    <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="20">
+                </p>
+
+                <input id="registre" type="button" value="Registre-se " onclick="window.open('Registre.html','_self')">
+                <span id="icone1">D</span>
+
+                <input id="login" type="submit" value="LOGIN ">
+                <span id="icone">A</span>
+                
+                <p>
+                    <input id="continuar" type="button" value="Continuar sem login" onclick="window.open('Propriedades.html','_self')">
+                    <span id="icone3">e</span>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        // Seleciona o formulário
+        const formulario = document.getElementById('formLogin');
+
+        formulario.addEventListener('submit', function(event) {
+            // Impede a página de recarregar ou abrir o link sem validar
+            event.preventDefault();
+
+            // Pega os valores digitados
+            const usuario = document.getElementById('iusuario').value;
+            const senha = document.getElementById('isenha').value;
+
+            // VALIDAÇÃO: Se estiverem preenchidos (o 'required' já ajuda aqui)
+            // Você pode definir um usuário e senha específicos se quiser:
+            if (usuario !== "" && senha.length >= 8) {
+                // Se estiver tudo certo, redireciona
+                window.location.href = "Propriedades.html";
+            } else {
+                alert("Por favor, preencha os campos corretamente.");
+            }
+        });
+    </script>
+</body>
+</html>

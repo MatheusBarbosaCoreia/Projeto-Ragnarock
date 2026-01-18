@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Icones'; /* Nome que você dará à fonte */
+    src: url('../Fontes/Font\ 90\ Icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Icones2'; /* Nome que você dará à fonte */
+    src: url('../Fontes/heydings_icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titulo'; /* Nome que você dará à fonte */
+    src: url('../Fontes/GothTitan-m2E6P.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Texto'; /* Nome que você dará à fonte */
+    src: url('../Fontes/BlastDragon-Jpxax.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Texto2'; /* Nome que você dará à fonte */
+    src: url('../Fontes/Protoculture-Ogj4.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#313131, #1e1e1e);
+}
+#icone{
+    font-family: 'Icones';
+}
+#icone1{
+    font-family: 'Icones2';
+    color: white;
+}
+#icone3{
+    font-family: 'Icones2';
+    color: white;
+}
+#iconlogin{
+    font-family: 'Icones2';
+    color: rgba(0, 255, 255, 0.575);
+    font-size: 26px;
+    margin: 0px 0px -28px 3px;
+    padding: 0px 0px 0px 0px;
+}
+#iconsenha{
+    font-family: 'Icones';
+    color: rgba(0, 255, 255, 0.575);
+    font-size: 25px;
+    margin: 0px 0px -28px 3px;
+    padding: 0px 0px 0px 0px;
+}
+#iconlogo{
+    font-family: 'Icones';
+    color: #b22525;
+    font-size: 25px;
+    margin: 0px 0px -28px 3px;
+    padding: 0px 0px 0px 0px;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section#menu{
+    background-color: #1e2131;
+    width: 300px;
+    height:auto;
+    border-radius: 10px;
+}
+
+h1{
+    color: #b22525;
+    text-align: center;
+    font-family:'Titulo' ;
+    font-size: 50px;
+    margin: -3px -30px 0px 0px;
+    padding: 5px 18px 5px 5px;
+}
+
+#celular{
+    height: 200px;
+    width: 300px;
+    padding-left: 0px;
+}
+
+input#iusuario, input#isenha{
+    background-color: #313030;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 33px;
+    margin-top: 0px;
+    border: 2px solid #181717;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#registre {
+    background-color: #070707;
+    color: white;
+    margin: 0px -25px 10px 9px;
+    padding: 4px 19px 4px 4px;
+    border: 3px solid #181717;
+    font-family: 'Texto';
+    font-size: 12px;
+}
+
+#login {
+    text-align: right;
+    background-color: #ff0505;
+    padding: 4px 22px 4px 4px;
+    margin: 0px -23px 0px 92px;
+    border: 3px solid #181717;
+    font-family: 'Texto2';
+    font-size: 14px;
+}
+#continuar{
+    
+    background-color: rgba(3, 169, 244, 0.565);
+    color: white;
+    margin: 0px -25px 10px 70px;
+    padding: 5px 22px 5px 5px;
+    font-family: sans-serif;
+    border-color: rgba(3, 169, 244, 0.565);
+    border: 2px solid #181717;
+    
+    
+}
+
+#registre:hover{
+    box-shadow: 0px 0px 3px 2px #070707;
+
+}
+#login:hover{
+    box-shadow: 0px 0px 3px 2px #811616;
+
+}
+#continuar:hover{
+    color: #ffffff;
+    box-shadow: 0px 0px 3px 2px rgba(3, 169, 244, 0.565);
+
+}
+input#iusuario:hover, input#isenha:hover{
+    background-color: rgb(28, 31, 31);
+}
