@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    section{
+    background-color: #1e1e1e;
+    width: 3000px;
+    height: auto;
+    padding: 0px 10px 35px 10px;
+    border-radius: 10px;
+    text-align: justify
+}
+}
+
 @font-face {
     font-family: 'Texto'; /* Nome que você dará à fonte */
     src: url('../Fontes/Font\ 90\ Icons.ttf') format('truetype'); /* Caminho e formato */
@@ -26,7 +37,6 @@ section{
     padding: 0px 10px 35px 10px;
     border-radius: 10px;
     text-align: justify
-    
 }
 
 h1{
