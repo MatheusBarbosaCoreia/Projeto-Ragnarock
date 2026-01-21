@@ -1,16 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px) and (max-width: 1024px) {
-    section{
-    background-color: #1e1e1e;
-    width: 3000px;
-    height: auto;
-    padding: 0px 10px 35px 10px;
-    border-radius: 10px;
-    text-align: justify
-}
-}
-
 @font-face {
     font-family: 'Texto'; /* Nome que você dará à fonte */
     src: url('../Fontes/Font\ 90\ Icons.ttf') format('truetype'); /* Caminho e formato */
@@ -50,10 +39,23 @@ img{
     margin-left: 5px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(97, 97, 97, 0.486);
-
+    
+}
+#teste {
+    width: 220px;
+    height: 280px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(97, 97, 97, 0.486);
+    margin: 10px 0px 15px -20px;
+    padding: 0px 0px 0px 0px;
 }
 h3{
     color: #b22525;
+}
+h4{
+    color: #0066ffa4;
+    
 }
 iframe{
     border-radius: 10px;
@@ -82,6 +84,11 @@ input {
     margin-left: 120px;
     margin-bottom: 10px;
     transition: all 0.3s ease;
-    margin: 2px -27px 12px 130px;
+    margin: 2px -27px 12px 120px;
     padding: 0px 20px 0px 0px;
+}
+li{
+    margin: 0px 0px 0px -8px;
+    padding: 0px 00px 0px 0px;
+
 }
