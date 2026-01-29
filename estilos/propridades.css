@@ -144,3 +144,84 @@ input#Cadastrar:hover{
     box-shadow: 0px 0px 3px 2px #811616;
     
 }
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+section{
+    background-color: #1e1e1e;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+h1{
+    color: #59b225;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#Linha2{
+    padding-left: 10px;
+}
+#Bunker{
+    padding-left: 90px;
+}
+#Linha3{
+    padding-left: 10px;
+}
+#complexo{
+    padding-left: 80px;
+}
+#Fliperama{
+    padding-left: 70px;
+}
+#Hangar{
+    padding-left: 50px;
+}
+#Kosaka{
+    padding-left: 80px;
+}
+#Laboratorio{
+    padding-left: 40px;
+}
+#Lavarapido{
+    padding-left: 60px;
+}
+#Motoclube{
+    padding-left: 45px;
+}
+#Yacht{
+    padding-left: 80px;
+}
+
+input{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+    transition: all 0.3s ease;
+
+}
+#Voltar{
+    background-color:#201e1e;
+    color: white;
+    margin: 3px -26px 7px 44px;
+    padding: 0px 19px 0px 6px;
+    border: 3px solid #181717;
+    
+}
+#Cadastrar{
+    background-color: #b22525;
+    color: black;
+    border: 3px solid #181717;
+    margin: 0px -22px 0px 50px;
+    padding: 0px 23px 0px 6px;
+}
+#teste{
+    margin: -140px 0px 0px 280px;
+    padding: 0px 0px 0px 0px;
+}
+#desc{
+    margin: 0px 0px 0px 42px;
+    padding: 0px 0px 0px 0px;
+}
+}
