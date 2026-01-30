@@ -154,7 +154,7 @@ section{
 }
 
 h1{
-    color: #59b225;
+    color: #b22525;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -221,7 +221,7 @@ input{
     padding: 0px 0px 0px 0px;
 }
 #desc{
-    margin: 0px 0px 0px 42px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -55px;
 }
+
 }
