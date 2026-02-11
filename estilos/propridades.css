@@ -161,35 +161,74 @@ h1{
 #Linha2{
     padding-left: 10px;
 }
-#Bunker{
+
+#avenger{
     padding-left: 90px;
 }
+#centro{
+    padding-left: 40px;
+}
+
+#Bunker{
+    padding-left: 45px;
+}
+#Boate{
+    padding-left: 95px;
+}
+#complexo{
+    padding-left: 50px;
+}
+#exportacao{
+    padding-left: 50px;
+}
+#fabrica{
+    padding-left: 43px;
+}
+#garagemexe{
+    padding-left: 40px;
+}
+#gara{
+    padding-left: 50px;
+}
+#ferro{
+    padding-left: 65px;
+}
+#hangar{
+    padding-left: 55px;
+}
+#Hangar{
+    padding-left: 80px;
+}
+#Kosaka{
+    padding-left: 60px;
+}
+#Laboratorio{
+    padding-left: 70px;
+}
+#Lavarapido{
+    padding-left: 40px;
+}
+#Motoclube{
+    padding-left: 60px;
+}
+#mansoes{
+    padding-left: 50px;
+}
+#muamba{
+    padding-left: 80px;
+}
+#terror{
+    padding-left: 45px;
+}
+#yacht{
+    padding-left: 85px;
+}
+
 #Linha3{
     padding-left: 10px;
 }
-#complexo{
-    padding-left: 80px;
-}
 #Fliperama{
     padding-left: 70px;
-}
-#Hangar{
-    padding-left: 50px;
-}
-#Kosaka{
-    padding-left: 80px;
-}
-#Laboratorio{
-    padding-left: 40px;
-}
-#Lavarapido{
-    padding-left: 60px;
-}
-#Motoclube{
-    padding-left: 45px;
-}
-#Yacht{
-    padding-left: 80px;
 }
 
 input{
@@ -220,6 +259,11 @@ input{
     margin: -140px 0px 0px 280px;
     padding: 0px 0px 0px 0px;
 }
+#teste2{
+    margin: -155px 4px 15px 280px;
+    padding: 0px 0px 0px 0px;
+}
+
 #desc{
     margin: 0px 0px 0px -55px;
 }
