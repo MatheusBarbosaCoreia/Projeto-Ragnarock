@@ -9,55 +9,31 @@
 </head>
 <body>
     <main>
-        <section id="menu">
-            <h1>Ragnarock <span id="iconlogo">O</span></h1>
-            <img id="celular" src="Imagens/Celular.jpg" alt="">
+        <section>
+            <h1>Ragnarock <span id="icone" >O</span> </h1>
+            <a href="Propriedades.html"><img src="Imagens/propriedades.jpg" alt=""></a>
             
-            <form id="formLogin" autocomplete="on">
-                <p>
-                    <span id="iconlogin">A</span>
-                    <input type="text" name="usuario" id="iusuario" required placeholder="Usuario" maxlength="30">
-                </p>
-                <p>
-                    <span id="iconsenha">P</span>
-                    <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="20">
-                </p>
+            <a href="Dados Esquemas/Apartamento.html"><img src="Imagens/golpes.jpg" alt=""></a>
+            
+            <div class="paragrafos">
+                <p class="esquerda">Propriedades</p>
+                <p id="Golpe" class="direita">Golpes</p>
+            </div>
 
-                <input id="registre" type="button" value="Registre-se " onclick="window.open('Registre.html','_self')">
-                <span id="icone1">D</span>
-
-                <input id="login" type="submit" value="LOGIN ">
-                <span id="icone">A</span>
-                
-                <p>
-                    <input id="continuar" type="button" value="Continuar sem login" onclick="window.open('Propriedades.html','_self')">
-                    <span id="icone3">e</span>
-                </p>
-            </form>
+                    
+            <a href="Dados Esquemas/Bunker.html"><img src="Imagens/atualização semanal.jpg" alt=""></a>
+            
+            <a href="Dados Esquemas/Boate.html"><img src="Imagens/guia iniciante.jpg" alt=""></a>
+            
+            
+            <div id="Linha3" class="paragrafos">
+                <p id="Atuali"  class="direita">Atualização Semanal</p>
+                <p id="Guia" class="esquerda">Guia Iniciante</p>
+            </div>
+ 
         </section>
     </main>
 
-    <script>
-        // Seleciona o formulário
-        const formulario = document.getElementById('formLogin');
-
-        formulario.addEventListener('submit', function(event) {
-            // Impede a página de recarregar ou abrir o link sem validar
-            event.preventDefault();
-
-            // Pega os valores digitados
-            const usuario = document.getElementById('iusuario').value;
-            const senha = document.getElementById('isenha').value;
-
-            // VALIDAÇÃO: Se estiverem preenchidos (o 'required' já ajuda aqui)
-            // Você pode definir um usuário e senha específicos se quiser:
-            if (usuario !== "" && senha.length >= 8) {
-                // Se estiver tudo certo, redireciona
-                window.location.href = "Propriedades.html";
-            } else {
-                alert("Por favor, preencha os campos corretamente.");
-            }
-        });
-    </script>
+    
 </body>
 </html>

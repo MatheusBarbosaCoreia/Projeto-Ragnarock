@@ -161,25 +161,14 @@ input{
 #Voltar{
     background-color:#201e1e;
     color: white;
-    margin: 3px -26px 7px 44px;
-    padding: 0px 19px 0px 6px;
+    margin: -5px -27px 10px 106px;
+    padding: 10px 20px 20px 15px;
     border: 3px solid #181717;
     
-}
-#Cadastrar{
-    background-color: #b22525;
-    color: black;
-    border: 3px solid #181717;
-    margin: 0px -22px 0px 50px;
-    padding: 0px 23px 0px 6px;
 }
 input#Voltar:hover{
     box-shadow: 0px 0px 3px 3px #5c2626;
     color: white;
-}
-input#Cadastrar:hover{
-    box-shadow: 0px 0px 3px 2px #811616;
-    
 }
 @media screen and (min-width: 700px) and (max-width: 1921px) {
 section{
@@ -277,20 +266,12 @@ input{
     transition: all 0.3s ease;
 
 }
-#Voltar{
-    background-color:#201e1e;
+#Voltar {
+    background-color: #201e1e;
     color: white;
-    margin: 3px -28px 8px 187px;
-    padding: 0px 19px 0px 6px;
+    margin: 10px -27px 0px 259px;
+    padding: 10px 25px 25px 10px;
     border: 3px solid #181717;
-    
-}
-#Cadastrar{
-    background-color: #b22525;
-    color: black;
-    border: 3px solid #181717;
-    margin: 0px -22px 0px 50px;
-    padding: 0px 23px 0px 6px;
 }
 #teste{
     margin: -140px 0px 0px 280px;
