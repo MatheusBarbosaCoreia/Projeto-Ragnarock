@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Titulo'; /* Nome que você dará à fonte */
+    src: url('../Fontes/heydings_icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titulo1'; /* Nome que você dará à fonte */
+    src: url('../Fontes/Font\ 90\ Icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Icones'; /* Nome que você dará à fonte */
+    src: url('../Fontes/Font\ 90\ Icons.ttf') format('truetype'); /* Caminho e formato */
+    font-weight: normal;
+    font-style: normal;
+}
+#icone{
+    font-family: 'Titulo1';
+    color: #059af1;
+}
+body{
+    background-image: linear-gradient(to bottom,#313131,#252424);
+}
+main{
+    width: 98vw;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section{
+    background-color: #1e1e1e;
+    width: 260px;
+    height: 740px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+h1{
+    color: #059af1;
+    text-align: center;
+    padding-bottom: 10px;
+}
+img{
+    width: 200px;
+    height: 110px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+img:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 2px #b22525;    
+    position: relative;
+    transform: scale(1.1);
+    z-index: 10;
+}
+.paragrafos{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+
+input{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+    transition: all 0.3s ease;
+
+}
+#Voltar{
+    background-color:#201e1e;
+    color: white;
+    margin: 0px -28px 0px 90px;
+    padding: 10px 20px 20px 15px;
+    border: 3px solid #181717;
+    
+}
+input#Voltar:hover{
+    box-shadow: 0px 0px 3px 3px #5c2626;
+    color: white;
+}
+#icone2{
+    font-family: 'Titulo1';
+    color: white;
+}
+
+#Desco{
+    margin: -158px -165px 158px 98px; 
+}
+#Bonus{
+    margin: -23px -146px 23px 105px; 
+}
+#Prio{
+    margin: -158px -196px 158px 70px;  
+}
+#Novi{
+    margin: -24px -164px 24px 95px;  
+}   
+
+@media screen and (min-width: 700px) and (max-width: 1921px) {
+main{
+    width: 98vw;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section{
+    background-color: #1e1e1e;
+    width: 490px;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+h1{
+    color: #059af1;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#icone{
+    font-family: 'Icones';
+}
+#Linha2{
+    padding-left: 10px;
+}
+input{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+    transition: all 0.3s ease;
+
+}
+
+#Voltar{
+    background-color:#201e1e;
+    color: white;
+    margin: -36px -27px 0px 208px;
+    padding: 10px 20px 20px 15px;
+    border: 3px solid #181717;
+    
+}
+input#Voltar:hover{
+    box-shadow: 0px 0px 3px 3px #5c2626;
+    color: white;
+}
+#icone2{
+    font-family: 'Titulo1';
+    color: white;
+}
+#Desco{
+    margin: -24px -160px 24px 94px;  
+}
+#Bonus{
+    margin: -24px -377px 24px 336px;   
+}
+#Prio{
+    margin: -24px -196px 24px 70px; 
+}
+#Novi{
+    margin: -24px -401px 24px 332px;
+}  
+}
