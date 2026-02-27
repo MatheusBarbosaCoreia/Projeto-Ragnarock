@@ -27,7 +27,7 @@ body{
 }
 main{
     width: 98vw;
-    height: 170vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -36,7 +36,7 @@ main{
 section{
     background-color: #1e1e1e;
     width: 260px;
-    height: 1260px;
+    height: auto;
     border-radius: 10px;
     padding-bottom: 15px;
 }
@@ -117,6 +117,75 @@ input#Voltar:hover{
 #Ofi{
     margin: -24px 0px 24px -14px;  
 }
+
+/*Apartamento*/
+#Fleeca{
+    margin: -158px -188px 158px 69px;
+}
+#Fuga{
+    margin: -24px -174px 24px 87px;
+}
+#Humane{
+    margin: -158px -205px 140px 22px;
+}
+#Pacific{
+    margin: -24px 0px 6px 4px;
+}
+#Serie{
+    margin: -24px 0px 10px 57px;
+}
+
+/*Complexo*/
+#Ato1{
+    margin: -157px -142px 157px 106px;
+}
+#Ato2{
+    margin: -24px -142px 24px 106px;
+}
+#Ato3{
+    margin: -24px -142px 15px 106px;
+}
+
+/*Fabrica de Roupas*/
+#Caixa{
+    margin: -157px -169px 157px 95px;
+}
+#Força{
+    margin: -24px -167px 24px 91px;
+}
+#Belas{
+    margin: -157px -165px 157px 92px;
+}
+#Breakaway{
+    margin: -24px -163px 24px 91px;
+}
+
+/*Oficina de Tuning*/
+#Union{
+    margin: 0px 0px 0px 0px;
+}
+#Agencia{
+    margin: 0px 0px 0px 0px;
+}
+#Data{
+    margin: 0px 0px 0px 0px;
+}
+#Banco{
+    margin: 0px 0px 0px 0px;
+}
+#ECU{
+    margin: 0px 0px 0px 0px;
+}
+#Prisão{
+    margin: 0px 0px 0px 0px;
+}
+#Lost{
+    margin: 0px 0px 0px 0px;
+}
+#Superdolar{
+    margin: 0px 0px 0px 0px;
+}
+
 @media screen and (min-width: 700px) and (max-width: 1921px) {
 main{
     width: 98vw;
@@ -192,5 +261,74 @@ input#Voltar:hover{
 #icone2{
     font-family: 'Titulo1';
     color: white;
+}
+
+/*Apartamento*/
+
+#Fleeca{
+    margin: -24px -187px 24px 69px;
+}
+#Fuga{
+    margin: -24px -410px 24px 323px;
+}
+#Humane{
+    margin: -24px -239px 24px 22px;
+}
+#Pacific{
+    margin: -24px -457px 24px 273px;
+}
+#Serie{
+    margin: -24px 0px 25px 51px;
+}
+
+/*Complexo*/
+#Ato1{
+    margin: -24px -139px 24px 103px;
+}
+#Ato2{
+    margin: -24px -379px 24px 343px;
+}
+#Ato3{
+    margin: -24px -141px 20px 105px;
+}
+
+/*Fabrica de Roupas*/
+#Caixa{
+    margin: -24px -169px 24px 95px;
+}
+#Força{
+    margin: -24px -403px 24px 327px;
+}
+#Belas{
+    margin: -24px -163px 24px 90px;
+}
+#Breakaway{
+    margin: -24px -397px 24px 325px;
+}
+
+/*Oficina de Tuning*/
+#Union{
+    margin: -24px -190px 24px 75px;
+}
+#Agencia{
+    margin: -24px -441px 24px 290px;
+}
+#Data{
+    margin: -24px -192px 24px 66px;
+}
+#Banco{
+    margin: -24px -436px 24px 300px;
+}
+#ECU{
+    margin: -24px -191px 24px 70px;
+}
+#Prisão{
+    margin: -24px -432px 24px 297px;
+}
+#Lost{
+    margin: -24px -191px 24px 67px;
+}
+#Superdolar{
+    margin: -24px -449px 24px 283px;
 }
 }
