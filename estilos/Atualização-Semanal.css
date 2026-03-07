@@ -22,12 +22,16 @@
     font-family: 'Titulo1';
     color: #059af1;
 }
+p{
+    color: white;
+    padding: 10px;
+}
 body{
     background-image: linear-gradient(to bottom,#313131,#252424);
 }
 main{
     width: 98vw;
-    height: 97vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -36,7 +40,7 @@ main{
 section{
     background-color: #1e1e1e;
     width: 260px;
-    height: 740px;
+    height: auto;
     border-radius: 10px;
     padding-bottom: 15px;
 }
@@ -110,7 +114,7 @@ input#Voltar:hover{
 @media screen and (min-width: 700px) and (max-width: 1921px) {
 main{
     width: 98vw;
-    height: 97vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -171,5 +175,17 @@ input#Voltar:hover{
 }
 #Novi{
     margin: -24px -401px 24px 332px;
+}
+#Desc{
+    margin: -30px -112px 30px 25px;
+}  
+#Desc2{
+    margin: -30px -321px 30px 260px;
+}
+#Desc3{
+    margin: 0px 0px 0px 0px;  
+}  
+#Desc4{
+    margin: 0px 0px 0px 0px;  
 }  
 }
