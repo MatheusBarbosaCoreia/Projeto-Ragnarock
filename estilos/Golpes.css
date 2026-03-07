@@ -162,28 +162,28 @@ input#Voltar:hover{
 
 /*Oficina de Tuning*/
 #Union{
-    margin: 0px 0px 0px 0px;
+    margin: -158px -190px 158px 75px;
 }
 #Agencia{
-    margin: 0px 0px 0px 0px;
+    margin: -24px -206px 24px 55px;
 }
 #Data{
-    margin: 0px 0px 0px 0px;
+    margin: -158px -191px 158px 65px;
 }
 #Banco{
-    margin: 0px 0px 0px 0px;
+    margin: -24px -196px 24px 60px;
 }
 #ECU{
-    margin: 0px 0px 0px 0px;
+    margin: -158px -191px 158px 70px;
 }
 #Prisão{
-    margin: 0px 0px 0px 0px;
+    margin: -24px -195px 24px 60px;
 }
 #Lost{
-    margin: 0px 0px 0px 0px;
+    margin: -158px -192px 160px 68px;
 }
 #Superdolar{
-    margin: 0px 0px 0px 0px;
+    margin: -24px -211px 26px 45px;
 }
 
 @media screen and (min-width: 700px) and (max-width: 1921px) {
