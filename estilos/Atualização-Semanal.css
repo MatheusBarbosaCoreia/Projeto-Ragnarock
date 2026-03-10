@@ -114,7 +114,7 @@ input#Voltar:hover{
 @media screen and (min-width: 700px) and (max-width: 1921px) {
 section{
     background-color: #1e1e1e;
-    width: 490px;
+    width: 690px;
     height: auto;
     border-radius: 10px;
     padding-bottom: 15px;
@@ -125,6 +125,14 @@ main{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+img{
+    width: 300px;
+    height: 170px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -151,7 +159,7 @@ input{
 #Voltar{
     background-color:#201e1e;
     color: white;
-    margin: -36px -27px 0px 208px;
+    margin: -36px -27px 0px 310px;
     padding: 10px 20px 20px 15px;
     border: 3px solid #181717;
     
@@ -166,16 +174,16 @@ input#Voltar:hover{
 }
 
 #Bonus{
-    margin: -30px -377px 24px 336px;   
+    margin: -30px -377px 24px 430px;   
 }
 #Prio{
-    margin: -30px -216px 24px 70px; 
+    margin: -30px -216px 24px 100px; 
 }
 #Novi{
-    margin: -30px -401px 24px 332px;
+    margin: -30px -401px 24px 450px;
 }
 #Desc{
-    margin: -30px -171px 30px 84px;
+    margin: -30px -171px 30px 140px;
 }   
 #Desco{
     margin: -10px 0px 0px 30px;
@@ -194,5 +202,21 @@ h4{
     color: #059af1;
     text-align: center;
     font-size: 25px;
+}
+#Img1{
+    margin: -10px 0px 0px 30px;
+    width: 570px;
+    height: 300px;
 }     
+#Img2{
+    margin: -10px 0px 0px 30px;
+    width: 275px;
+    height: 300px;
+}
+#Img3{
+    margin: -10px 0px 30px 30px;
+    width: 570px;
+    height: 300px;
+}
+     
 }
