@@ -31,7 +31,7 @@ body{
 }
 main{
     width: 98vw;
-    height: auto;
+    height: 97.6vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -112,19 +112,19 @@ input#Voltar:hover{
 }   
 
 @media screen and (min-width: 700px) and (max-width: 1921px) {
-main{
-    width: 98vw;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
 section{
     background-color: #1e1e1e;
     width: 490px;
     height: auto;
     border-radius: 10px;
     padding-bottom: 15px;
+}
+main{
+    width: 98vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 h1{
@@ -164,28 +164,35 @@ input#Voltar:hover{
     font-family: 'Titulo1';
     color: white;
 }
-#Desco{
-    margin: -24px -160px 24px 94px;  
-}
+
 #Bonus{
-    margin: -24px -377px 24px 336px;   
+    margin: -30px -377px 24px 336px;   
 }
 #Prio{
-    margin: -24px -196px 24px 70px; 
+    margin: -30px -216px 24px 70px; 
 }
 #Novi{
-    margin: -24px -401px 24px 332px;
+    margin: -30px -401px 24px 332px;
 }
 #Desc{
-    margin: -30px -112px 30px 25px;
-}  
-#Desc2{
-    margin: -30px -321px 30px 260px;
+    margin: -30px -171px 30px 84px;
+}   
+#Desco{
+    margin: -10px 0px 0px 30px;
+    width: 250px;
+    height: 320px;
 }
-#Desc3{
-    margin: 0px 0px 0px 0px;  
-}  
-#Desc4{
-    margin: 0px 0px 0px 0px;  
-}  
+#imagens{
+    margin: -10px 0px 0px 30px;
+    width: 400px;
+    height: 270px;
+}
+ul,li{
+    color: white;
+}
+h4{
+    color: #059af1;
+    text-align: center;
+    font-size: 25px;
+}     
 }
