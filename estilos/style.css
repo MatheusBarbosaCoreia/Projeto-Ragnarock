@@ -27,7 +27,7 @@ body{
 }
 main{
     width: 98vw;
-    height: 97.6vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -36,7 +36,7 @@ main{
 section{
     background-color: #1e1e1e;
     width: 250px;
-    height: 620px;
+    height: auto;
     border-radius: 10px;
     padding-bottom: 15px;
 }
@@ -99,6 +99,13 @@ section{
     height: auto;
     border-radius: 10px;
     padding-bottom: 15px;
+}
+main{
+    width: 98vw;
+    height: 97.6vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 h1{
