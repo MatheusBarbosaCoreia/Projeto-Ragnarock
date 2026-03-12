@@ -27,7 +27,7 @@ body{
 }
 main{
     width: 98vw;
-    height: auto;
+    height: 97.6vh;
     align-items: center;
     justify-content: center;
     display: flex;
