@@ -95,8 +95,8 @@ input{
 @media screen and (min-width: 700px) and (max-width: 1921px) {
 section{
     background-color: #1e1e1e;
-    width: 490px;
-    height: auto;
+    width: 650px;
+    height: 500px;
     border-radius: 10px;
     padding-bottom: 15px;
 }
@@ -106,6 +106,14 @@ main{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+img{
+    width: 270px;
+    height: 160px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -133,19 +141,25 @@ input{
 
 }
 .esquerda{
-    margin: -21px -10px 0px 90px;
+    margin: -21px -10px 10px 105px;
 }
 .direita{
     margin-top: 0px;
     padding-left: 177px;
 }
 #Golpe{
-    margin: -25px 0px 0px 0px;
+    margin: -24px -297px 13px 240px;
+    padding: 0px 0px 0px 0px;
 }
 #Guia{
-    margin: -23px 0px 25px -45px;
+    margin: -24px -534px 26px 420px;
+    padding: 0px 0px 0px 0px;
 }
 #Atuali{
-    margin: -22px 35px 0px 19px;
+    margin: -24px -250px 26px 80px;
+    padding: 0px 0px 0px 0px;
+}
+p{
+    font-size: 20px;
 }
 }
