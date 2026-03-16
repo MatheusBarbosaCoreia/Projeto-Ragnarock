@@ -171,7 +171,7 @@ input{
 #Voltar{
     background-color:#201e1e;
     color: white;
-    margin: -36px -27px 0px 310px;
+    margin: 20px -27px 0px 310px;
     padding: 10px 20px 20px 15px;
     border: 3px solid #181717;
     
@@ -186,16 +186,20 @@ input#Voltar:hover{
 }
 
 #Bonus{
-    margin: -30px -377px 24px 430px;   
+    margin: -24px -542px 38px 491px;  
+    padding: 0px 0px 0px 0px;
 }
 #Prio{
-    margin: -30px -216px 24px 100px; 
+    margin: -24px -258px 38px 93px; 
+    padding: 0px 0px 0px 0px;
 }
 #Novi{
-    margin: -30px -401px 24px 450px;
+    margin: -24px -565px 38px 480px;
+    padding: 0px 0px 0px 0px;
 }
 #Desc{
-    margin: -30px -171px 30px 140px;
+    margin: -24px -224px 38px 137px;
+    padding: 0px 0px 0px 0px;
 }   
 #Desco{
     margin: -10px 0px 0px 30px;
@@ -229,6 +233,9 @@ h4{
     margin: -10px 0px 30px 30px;
     width: 570px;
     height: 300px;
+}
+p{
+    font-size: 20px;
 }
      
 }
